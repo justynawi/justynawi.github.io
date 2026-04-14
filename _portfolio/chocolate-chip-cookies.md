@@ -12,4 +12,4 @@ This is an example portfolio entry converted from the previous recipes set.
 - Outcome: Demonstrates collection-driven listing
 - Notes: Replace with a real project case study
 
-<iframe title="MusicBrainz- Report" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiNWYzODVlZTYtZjg5Yi00YmFkLWI1MmYtNjVhMjA2N2I4YjllIiwidCI6IjNjNjg3ZjFiLWNlMGMtNDllMi05Njk4LWRlMjhkOTU2YjAyMCJ9" frameborder="0" allowFullScreen="true"></iframe>
+
