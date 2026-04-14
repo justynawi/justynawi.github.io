@@ -1,0 +1,39 @@
+{% assign entry = include.entry %}
+{% if entry %}
+  {% assign title = entry.title | markdownify | remove: "<p>" | remove: "</p>" %}
+  {% assign entry_url = entry.url | relative_url %}
+  {% assign entry_image = entry.thumbnail | default: entry.image.thumbnail | default: entry.image.path | default: entry.image %}
+
+<article class="entry h-entry">
+  {% if entry_image %}
+    <div class="entry-image">
+      <a href="{{ entry_url }}" rel="bookmark">
+        <img src="{{ entry_image | relative_url }}" alt="{{ title | strip_html }}" class="u-photo">
+      </a>
+    </div>
+  {% endif %}
+
+  <header class="entry-header">
+    <h3 class="entry-title p-name">
+      <a href="{{ entry_url }}" rel="bookmark">{{ title }}</a>
+    </h3>
+  </header>
+
+  {% if entry.excerpt %}
+    <div class="entry-excerpt p-summary">
+      {{ entry.excerpt | markdownify }}
+    </div>
+  {% endif %}
+
+  <footer class="entry-meta">
+    {% if site.read_time and entry.content %}
+      {% include read-time.html content=entry.content %}
+    {% endif %}
+    {% if entry.date %}
+      <time class="entry-date dt-published" datetime="{{ entry.date | date_to_xmlschema }}">
+        {{ entry.date | date: site.date_format }}
+      </time>
+    {% endif %}
+  </footer>
+</article>
+{% endif %}
