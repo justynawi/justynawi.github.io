@@ -15,7 +15,6 @@ Designed and delivered a Power BI analytical solution that transformed fragmente
 **Business Context**
 
 The main challenge was not visualization, but building analytical credibility on top of imperfect open data.
-
 MusicBrainz provided broad global coverage across artists, releases, recordings, and live events, but the data was uneven in quality and completeness. Geographic coverage varied by country, metadata depth differed by entity, and some fields were incomplete or not reliable enough for direct reporting. The project required a reporting layer that could support meaningful comparison despite those limitations.
 
 The dashboard was designed for researchers, analysts, and policy-oriented stakeholders who needed a structural view of music ecosystems rather than a popularity-driven one.
@@ -23,7 +22,6 @@ The dashboard was designed for researchers, analysts, and policy-oriented stakeh
 **Objective**
 
 The objective was to create an interactive analytical product that answers three core questions:
-
 - Where is global music activity concentrated?
 - Which countries outperform when adjusted for population size?
 - How do local music scenes differ in live activity, genre structure, and long-term stability?
@@ -33,7 +31,6 @@ The solution was intended to provide a single analytical layer for comparing mus
 **Data and Engineering**
 
 I owned the solution end to end:
-
 - data preparation in PostgreSQL
 - SQL-based analytical table design
 - data shaping in Power Query
@@ -43,13 +40,11 @@ I owned the solution end to end:
 - KPI definition and analytical framing
 
 The solution combined:
-
 - MusicBrainz open data
 - ISO-based country and region mapping
 - population data for per-capita normalization
 
 Key reporting domains included:
-
 - artists
 - releases
 - recordings
@@ -61,7 +56,6 @@ To keep the reporting layer focused and performant, I used PostgreSQL as a prepa
 Rather than forcing a textbook star schema, I designed a hybrid dimensional model with shared conformed dimensions such as Date and Country, supported by multiple subject-area fact-like tables. This approach better matched the analytical problem: it preserved flexibility across reporting domains while keeping metric logic consistent and manageable in DAX.
 
 Power Query transformation included:
-
 - standardized ISO and geographic mappings
 - aligned country and year logic across subject areas
 - merged population data for normalized KPIs
@@ -70,7 +64,6 @@ Power Query transformation included:
 - created helper tables for metric switching, labels, and usability
 
 The DAX layer included measures for:
-
 - total artists, releases, recordings, events and ensembles
 - artists and releases per 1M residents
 - ranking and Top N analysis
@@ -81,7 +74,6 @@ The DAX layer included measures for:
 **Report**
 
 The final report was structured into six focused pages:
-
 - **Overview** for global concentration of artists and releases
 - **Participation** for artists and releases per 1M residents
 - **Recordings** for recording volume and tagging density
@@ -90,7 +82,6 @@ The final report was structured into six focused pages:
 - **Longevity** for career length analysis across ensemble types and regions
 
 Core KPIs included:
-
 - **337K** total artists
 - **4M** total releases
 - **84K** distinct live events
