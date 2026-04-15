@@ -2,7 +2,7 @@
 title: Global Music Scene
 excerpt: "Global music scenes through structured, non-commercial data insights."
 image: /images/Global%20music%20concentration.png
-thumbnail: /images/Global%20music%20concentration.png
+thumbnail: /images/global-music-concentration-400x200.png
 read_time: false
 ---
 
