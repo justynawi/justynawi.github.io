@@ -76,6 +76,20 @@
   .entries-grid .entry {
     float: none !important;
     margin: 0 !important;
+    width: min(100%, 400px);
+    flex: 0 1 400px;
+  }
+
+  .entries-grid .entry-image {
+    aspect-ratio: 2 / 1;
+    overflow: hidden;
+  }
+
+  .entries-grid .entry-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   .layout--post .page-meta,
