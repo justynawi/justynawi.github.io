@@ -2,6 +2,7 @@
 title: Skills
 layout: page
 permalink: /skills/
+classes: centered-page-title
 ---
 
 <div class="page-copy-serif skills-layout">

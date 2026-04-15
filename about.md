@@ -2,6 +2,7 @@
 title: About
 layout: page
 permalink: /about/
+classes: centered-page-title
 ---
 
 <div class="page-copy-serif">
