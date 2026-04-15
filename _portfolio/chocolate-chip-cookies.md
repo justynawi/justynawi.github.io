@@ -6,6 +6,8 @@ thumbnail: /images/chocolate-chip-cookies-400x200.jpg
 read_time: false
 ---
 
+<div class="case-study-copy" markdown="1">
+
 **Case Study**
 
 Designed and delivered a Power BI analytical solution that transformed fragmented open music data into a structured decision-support product for global comparative analysis. The dashboard examined music activity across countries and regions between 1995 and 2025, enabling users to assess scene scale, participation intensity, live event distribution, stylistic patterns, and ensemble longevity without relying on commercial metrics such as sales, charts, or streaming.
@@ -105,4 +107,4 @@ The dashboard turned open structural data into a practical tool for comparative 
 
 This project shows how Power BI can be used as a full analytical solution, not just a reporting tool. The value of the solution was not limited to presenting existing patterns, but to creating a framework that supports strategic reflection and inspires further research. By designing trustworthy KPIs on top of imperfect open data, the dashboard became both an analytical product and a starting point for deeper investigation, including future extensions into cultural funding, market data, gender-based analysis, and more granular city- or metro-level perspectives.
 
-
+</div>

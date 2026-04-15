@@ -6,8 +6,12 @@ thumbnail: /images/oatmeal-cookies-400x200.jpg
 read_time: false
 ---
 
+<div class="case-study-copy" markdown="1">
+
 Another placeholder portfolio item to show how multiple entries render.
 
 - Scope: Example card in collection grid
 - Outcome: Confirms listing and individual detail pages
 - Notes: Replace with your own project details
+
+</div>

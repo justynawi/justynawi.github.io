@@ -1,5 +1,8 @@
 <style>
-  .navigation-wrapper {
+  .navigation-wrapper,
+  .site-nav,
+  .masthead,
+  .masthead__inner-wrap {
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -8,13 +11,18 @@
 
   .greedy-nav,
   .greedy-nav .visible-links,
-  .greedy-nav .hidden-links {
+  .greedy-nav .hidden-links,
+  .greedy-nav .navicon,
+  .greedy-nav .links-menu,
+  .greedy-nav .hidden-links:before {
     background-color: #5f7f79 !important;
   }
 
+  .navigation-wrapper *,
+  .site-nav *,
+  .masthead *,
   .greedy-nav a,
   .greedy-nav button {
-    background-color: #5f7f79 !important;
     color: #f6f3ee !important;
   }
 
@@ -25,8 +33,23 @@
   .page-copy-serif,
   .page-copy-serif p,
   .page-copy-serif li,
-  .page-copy-serif strong {
+  .page-copy-serif strong,
+  .page-copy-serif .skills-section-title {
     font-family: "Lora", serif;
+  }
+
+  .skills-layout p,
+  .skills-layout ul {
+    margin: 0 0 1rem;
+  }
+
+  .skills-layout .skills-section-title {
+    font-weight: 700;
+    margin: 0 0 0.25rem;
+  }
+
+  .skills-layout ul {
+    padding-left: 1.1rem;
   }
 
   .entries-grid {
@@ -43,13 +66,39 @@
 
   .layout--post .page-meta,
   .layout--post .page__meta,
-  .layout--post .page-taxonomy {
+  .layout--post .page-taxonomy,
+  .layout--post .read-time,
+  .layout--post [class*="read-time"],
+  .layout--post .page-reading-time,
+  .layout--post .reading-time {
     display: none !important;
   }
 
-  .author-links .fa-linkedin-in,
-  .social-icons .fa-linkedin-in,
-  .footer-links .fa-linkedin-in {
+  .case-study-copy p,
+  .case-study-copy ul {
+    margin-top: 0;
+    margin-bottom: 0.7rem;
+  }
+
+  .case-study-copy ul {
+    padding-left: 1.25rem;
+  }
+
+  .case-study-copy p + p,
+  .case-study-copy p + ul,
+  .case-study-copy ul + p {
+    margin-top: 0.15rem;
+  }
+
+  .case-study-copy strong {
+    display: inline-block;
+    margin-top: 0.6rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .author-links .fa-linkedin,
+  .social-icons .fa-linkedin,
+  .footer-links .fa-linkedin {
     color: #5f7f79 !important;
   }
 

@@ -89,10 +89,10 @@ author:
   links:
     - title: LinkedIn
       url: https://linkedin.com/in/justynawi
-      icon: fab fa-linkedin-in
+      icon: fab fa-linkedin
 
 # Footer Links
 footer_links:
   - title: LinkedIn
     url: https://linkedin.com/in/justynawi
-    icon: fab fa-linkedin-in
+    icon: fab fa-linkedin
