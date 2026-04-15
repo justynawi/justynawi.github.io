@@ -1,8 +1,8 @@
 ---
 title: Global Music Scene
 excerpt: "Global music scenes through structured, non-commercial data insights."
-image: /images/chocolate-chip-cookies-lg.jpg
-thumbnail: /images/chocolate-chip-cookies-400x200.jpg
+image: /images/Global%20music%20concentration.png
+thumbnail: /images/Global%20music%20concentration.png
 read_time: false
 ---
 
