@@ -4,17 +4,23 @@ layout: page
 permalink: /skills/
 ---
 
-### Core Tools
+<div class="page-copy-serif">
 
-Power BI, DAX, SQL, Power Query, Microsoft Fabric, VBA
+### Business Intelligence & Analytics:
 
-### BI & Analytics
+Power BI, DAX, Data Modeling, Data Visualization, Dashboard Development, Report Optimization
 
-Data modeling, Dashboard development, Report optimization, ETL, Data visualization, KPI design, Commercial and financial analysis, Budgeting and forecasting, Audit and internal controls
+### Data Engineering & Automation:
 
-### Delivery & Collaboration
+SQL, ETL, SSRS, SSMS, Power Query, Microsoft Fabric, Process Automation, VBA, Python, Alteryx
 
-Stakeholder management, Requirements gathering, Cross-functional collaboration, Data storytelling, Testing and UAT, Team leadership
+### Analytics & Business Acumen:
+
+Commercial Analytics, Financial Analysis, Budgeting & Forecasting, Audit & Internal Controls
+
+### Collaboration:
+
+Stakeholder Management, Cross-functional Collaboration, Data Storytelling
 
 ### Certifications
 
@@ -24,3 +30,5 @@ Stakeholder management, Requirements gathering, Cross-functional collaboration, 
 - AgilePM Foundation
 - Design Thinking Method Foundation
 - ACCA (11 of 13 exams completed)
+
+</div>
