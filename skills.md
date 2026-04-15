@@ -6,23 +6,23 @@ permalink: /skills/
 
 <div class="page-copy-serif">
 
-### Business Intelligence & Analytics:
+**Business Intelligence & Analytics:**
 
 Power BI, DAX, Data Modeling, Data Visualization, Dashboard Development, Report Optimization
 
-### Data Engineering & Automation:
+**Data Engineering & Automation:**
 
 SQL, ETL, SSRS, SSMS, Power Query, Microsoft Fabric, Process Automation, VBA, Python, Alteryx
 
-### Analytics & Business Acumen:
+**Analytics & Business Acumen:**
 
 Commercial Analytics, Financial Analysis, Budgeting & Forecasting, Audit & Internal Controls
 
-### Collaboration:
+**Collaboration:**
 
 Stakeholder Management, Cross-functional Collaboration, Data Storytelling
 
-### Certifications
+**Certifications**
 
 - Microsoft Power BI Data Analyst Associate (PL-300)
 - Alteryx Designer Core Certification

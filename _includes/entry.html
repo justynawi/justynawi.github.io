@@ -25,15 +25,5 @@
     </div>
   {% endif %}
 
-  <footer class="entry-meta">
-    {% if site.read_time and entry.content %}
-      {% include read-time.html content=entry.content %}
-    {% endif %}
-    {% if entry.date %}
-      <time class="entry-date dt-published" datetime="{{ entry.date | date_to_xmlschema }}">
-        {{ entry.date | date: site.date_format }}
-      </time>
-    {% endif %}
-  </footer>
 </article>
 {% endif %}

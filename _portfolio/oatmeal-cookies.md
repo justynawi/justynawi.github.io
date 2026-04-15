@@ -1,9 +1,9 @@
 ---
 title: Oatmeal Cookies
 excerpt: "Second sample entry for the new portfolio collection."
-date: 2026-04-14
 image: /images/oatmeal-cookies-lg.jpg
 thumbnail: /images/oatmeal-cookies-400x200.jpg
+read_time: false
 ---
 
 Another placeholder portfolio item to show how multiple entries render.

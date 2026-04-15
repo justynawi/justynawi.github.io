@@ -7,15 +7,50 @@
   }
 
   .greedy-nav,
+  .greedy-nav .visible-links,
   .greedy-nav .hidden-links {
     background-color: #5f7f79 !important;
+  }
+
+  .greedy-nav a,
+  .greedy-nav button {
+    background-color: #5f7f79 !important;
+    color: #f6f3ee !important;
+  }
+
+  .greedy-nav .visible-links a:before {
+    background: #f6f3ee !important;
   }
 
   .page-copy-serif,
   .page-copy-serif p,
   .page-copy-serif li,
-  .page-copy-serif h3 {
+  .page-copy-serif strong {
     font-family: "Lora", serif;
+  }
+
+  .entries-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .entries-grid .entry {
+    float: none !important;
+    margin: 0 !important;
+  }
+
+  .layout--post .page-meta,
+  .layout--post .page__meta,
+  .layout--post .page-taxonomy {
+    display: none !important;
+  }
+
+  .author-links .fa-linkedin-in,
+  .social-icons .fa-linkedin-in,
+  .footer-links .fa-linkedin-in {
+    color: #5f7f79 !important;
   }
 
   body {

@@ -80,6 +80,7 @@ defaults:
       layout: post
       comments: false
       share: false
+      read_time: false
 
 # Site Author
 author:
@@ -88,10 +89,10 @@ author:
   links:
     - title: LinkedIn
       url: https://linkedin.com/in/justynawi
-      icon: fab fa-linkedin
+      icon: fab fa-linkedin-in
 
 # Footer Links
 footer_links:
   - title: LinkedIn
     url: https://linkedin.com/in/justynawi
-    icon: fab fa-linkedin
+    icon: fab fa-linkedin-in
