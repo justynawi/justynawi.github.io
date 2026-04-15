@@ -30,6 +30,21 @@
     background: #f6f3ee !important;
   }
 
+  .site-title,
+  .site-title a,
+  .site-description {
+    border-top-color: #5f7f79 !important;
+  }
+
+  .site-title:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 6px;
+    margin-bottom: 0.9rem;
+    background-color: #5f7f79;
+  }
+
   .page-copy-serif,
   .page-copy-serif p,
   .page-copy-serif li,
@@ -72,6 +87,22 @@
   .layout--post .page-reading-time,
   .layout--post .reading-time {
     display: none !important;
+  }
+
+  .layout--post .page-image,
+  .layout--post .page__hero,
+  .layout--post .page__hero-image,
+  .layout--post .entry-image,
+  .layout--post figure {
+    display: none !important;
+  }
+
+  .layout--post .page-header,
+  .layout--post .page-content,
+  .layout--post .page,
+  .layout--post article {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
   }
 
   .case-study-copy p,
