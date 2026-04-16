@@ -20,7 +20,7 @@ Audit organizations need to balance growth, profitability and delivery quality a
 
 **Objective**
 
-The objective was to build a senior-level Power BI solution that:
+The objective was to build a Power BI solution that:
 
 - gives executives a concise view of company performance,
 - helps department leaders assess client portfolio quality and financial performance,
@@ -30,25 +30,20 @@ The objective was to build a senior-level Power BI solution that:
 **Data and Engineering**
 
 The report is based on a multi-fact star schema built around:
-
 - Fact_Timesheet
 - Fact_Invoice
 - Dim_Budget
-- Bridge_Timesheet_Invoice
-
 supported by conformed dimensions for date, client, department, service, employee and employee title.
 
 The model includes seasonal workloads, billable vs non-billable time, service-level billing, write-offs, budget vs actual comparisons and department-specific performance patterns.
 
 From an engineering perspective, the solution includes:
-
 - reusable DAX measures grouped by business area,
 - dedicated time intelligence logic,
 - dynamic titles and report-page tooltips,
 - bridge analysis for revenue composition,
 - ranking logic for top/bottom client and manager views,
 - selector tables for controlled interactivity.
-
 This approach kept the model scalable and easier to maintain.
 
 **Report**
@@ -57,22 +52,22 @@ The final solution is structured into three report pages.
 
 The **Executive Overview** page presents revenue, revenue variance, margin, realization and utilization through YTD KPIs, trends, a revenue bridge and service/department variance views. It is designed to show whether the business is growing in a healthy way and where the main risk signals appear.
 
-The **Department - Client Insights** page focuses on portfolio quality within a selected department. It combines revenue, margin, write-off and realization metrics with client-group analysis, client rankings and variance views to identify underperforming clients and weaker budget execution.
+The **Department – Client Insights** page focuses on portfolio quality within a selected department. It combines revenue, margin, write-off and realization metrics with client-group analysis, client rankings and variance views to identify underperforming clients and weaker budget execution.
 
-The **Department - Teams & Performance** page focuses on delivery execution. It compares actual vs budget billable hours by employee title, shows non-billable hours by service and title group, ranks managers by variance and links service mix to realization outcomes. Its purpose is to explain why results differ, not only where they differ.
+The **Department – Teams & Performance** page focuses on delivery execution. It compares actual vs budget billable hours by employee title, shows non-billable hours by service and title group, ranks managers by variance and links service mix to realization outcomes. Its purpose is to explain why results differ, not only where they differ.
 
 **Business Outcome**
 
 The dashboard shows how financial performance can be traced back to client mix, service mix and delivery structure.
 
 It enables decision-makers to identify:
-
 - departments with weaker margin or higher variance,
 - services that underperform budget,
 - clients with lower realization or margin pressure,
 - team structures misaligned with expected delivery,
 - manager groups where execution differs from plan.
-
 As a result, the report supports targeted actions in budgeting, client management, staffing and delivery governance.
+
+
 
 </div>
