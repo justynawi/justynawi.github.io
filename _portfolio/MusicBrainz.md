@@ -14,7 +14,7 @@ Designed and delivered a Power BI analytical solution that transformed fragmente
 
 **Business Context**
 
-The main challenge was not visualization, but building analytical credibility on top of imperfect open data.
+The main challenge was building analytical credibility on top of imperfect open data.
 MusicBrainz provided broad global coverage across artists, releases, recordings, and live events, but the data was uneven in quality and completeness. Geographic coverage varied by country, metadata depth differed by entity, and some fields were incomplete or not reliable enough for direct reporting. The project required a reporting layer that could support meaningful comparison despite those limitations.
 
 The dashboard was designed for researchers, analysts, and policy-oriented stakeholders who needed a structural view of music ecosystems rather than a popularity-driven one.
@@ -80,13 +80,6 @@ The final report was structured into six focused pages:
 - **Genre Trends** for stylistic patterns by geography and over time
 - **Events** for live music distribution by type and location
 - **Longevity** for career length analysis across ensemble types and regions
-
-Core KPIs included:
-- **337K** total artists
-- **4M** total releases
-- **84K** distinct live events
-- **124K** recordings analyzed for 2020-2025
-- **8K** distinct genre tags
 
 The UX was designed for guided exploration, with page-level navigation, time-range filtering, region and genre slicers, metric switching, dynamic titles, and visuals that compared absolute scale against normalized intensity.
 
