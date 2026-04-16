@@ -8,6 +8,11 @@ read_time: false
 
 <div class="case-study-copy" markdown="1">
 
+
+<iframe title="MusicBrainz- Report" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiYTU2OGUzZDgtYzY3MS00NWQ5LTk5OGYtZTVmM2ZiODA0ZjVjIiwidCI6IjNjNjg3ZjFiLWNlMGMtNDllMi05Njk4LWRlMjhkOTU2YjAyMCJ9" frameborder="0" allowFullScreen="true"></iframe>
+
+
+
 **Case Study**
 
 Designed and delivered a Power BI analytical solution that transformed fragmented open music data into a structured decision-support product for global comparative analysis. The dashboard examined music activity across countries and regions between 1995 and 2025, enabling users to assess scene scale, participation intensity, live event distribution, stylistic patterns, and ensemble longevity without relying on commercial metrics such as sales, charts, or streaming.
