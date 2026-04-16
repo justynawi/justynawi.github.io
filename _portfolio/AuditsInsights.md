@@ -8,6 +8,9 @@ read_time: false
 
 <div class="case-study-copy" markdown="1">
 
+<iframe title="Audit Insights" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZWRmMzM3MTgtYjI0Ny00OGRiLTg2YjgtOGJjZWFkM2NmZjMyIiwidCI6IjNjNjg3ZjFiLWNlMGMtNDllMi05Njk4LWRlMjhkOTU2YjAyMCJ9" frameborder="0" allowFullScreen="true"></iframe>
+
+
 **Case Study**
 
 This project is a multi-page Power BI solution built for an audit environment. It was designed as a decision-support product for different management levels, combining executive oversight with department-level analysis of clients, delivery performance and team structure.
