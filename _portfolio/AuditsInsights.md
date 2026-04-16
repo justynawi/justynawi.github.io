@@ -33,6 +33,7 @@ The report is based on a multi-fact star schema built around:
 - Fact_Timesheet
 - Fact_Invoice
 - Dim_Budget
+
 supported by conformed dimensions for date, client, department, service, employee and employee title.
 
 The model includes seasonal workloads, billable vs non-billable time, service-level billing, write-offs, budget vs actual comparisons and department-specific performance patterns.
