@@ -22,7 +22,6 @@ classes: centered-page-title
   <ul>
     <li>Microsoft Power BI Data Analyst Associate (PL-300)</li>
     <li>Alteryx Designer Core Certification</li>
-    <li>Microsoft 365 Power BI Report Builder</li>
     <li>AgilePM Foundation</li>
     <li>Design Thinking Method Foundation</li>
     <li>ACCA (11 of 13 exams completed)</li>
