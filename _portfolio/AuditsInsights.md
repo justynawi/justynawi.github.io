@@ -13,6 +13,7 @@ read_time: false
 
 
 
+
 **Case Study**
 
 This project is a multi-page Power BI solution built for an audit environment. It was designed as a decision-support product for different management levels, combining executive oversight with department-level analysis of clients, delivery performance and team structure.
