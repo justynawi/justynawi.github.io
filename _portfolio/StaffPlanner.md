@@ -1,8 +1,8 @@
 ---
 title: Engagement Staffing Planner
 excerpt: "An interactive Power BI tool for planning staffing scenarios and evaluating their impact on delivery cost and expected margin."
-image: /images/Global%20music%20concentration.png
-thumbnail: /images/StaffPlanner1.png
+image: /images/StaffPlanner1.png
+thumbnail: /images/staff-planner-400x200.png
 read_time: false
 ---
 
