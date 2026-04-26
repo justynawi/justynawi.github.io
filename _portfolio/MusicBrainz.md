@@ -9,7 +9,8 @@ read_time: false
 <div class="case-study-copy" markdown="1">
 
 
-<iframe title="MusicBrainz- Report" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiYTU2OGUzZDgtYzY3MS00NWQ5LTk5OGYtZTVmM2ZiODA0ZjVjIiwidCI6IjNjNjg3ZjFiLWNlMGMtNDllMi05Njk4LWRlMjhkOTU2YjAyMCJ9" frameborder="0" allowFullScreen="true"></iframe>
+
+<iframe title="MusicBrainz- Report2" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiMzhkZmY5YjktMTI5NC00NDM5LTkyM2EtZDMwZGUxY2ExOTA5IiwidCI6IjNjNjg3ZjFiLWNlMGMtNDllMi05Njk4LWRlMjhkOTU2YjAyMCJ9" frameborder="0" allowFullScreen="true"></iframe>
 
 
 
